@@ -10,20 +10,49 @@
 }
 
 body {
-    background: url(../img/fundo.jpg);
-    background-position: center center;
-    background-size: cover cover;
-    padding: 0;
-    margin: 0;
-    font-weight: 300;
+   
+   background: url(../img/img-fundo-amarelo.jpg);
+   background-position: center center;
+   background-size: cover cover;
+   padding: 0;
+   margin: 0;
+   font-weight: 300;
     
 }
 
+@keyframes changeBg {
+    0% {
+        background-color:#cbcf00;
+    }
+
+    25% {
+        background-color: #ffff7a;
+    }
+
+    50% {
+        background-color: #edef00;
+    }
+
+    75% {
+        background-color: #ffff42;
+    }
+
+    100% {
+        background-color: #ffff56;
+    }
+
+
+}
+
 body, input {
+    
+ 
     font-family: 'Teko', sans-serif;
 }
 
 main {
+   
+ 
     width: 80vw;
     height: 80vh;
     margin: 10vh 8vw 10vh 12vw;
@@ -61,6 +90,7 @@ main {
 }
 
 .box {
+    animation: changeBg 5s infinite alternate linear;
     background: rgba(0,0,0,0.6);
     clip-path: polygon(calc(100% - 30px) 0, 100% 30px, 100% calc(100% - 30px), calc(100% - 30px) 100%, 30px 100%, 0 calc(100% - 30px), 0 30px, 30px 0);
     border-left: 5px solid var(--main-cinza);
@@ -74,6 +104,7 @@ main {
 }
 
 .montador {
+    
     height: 100%;;
 }
 
@@ -86,7 +117,7 @@ main {
 }
 
 .peca-titulo {
-    color: var(--main-branco);
+    color: var(--main-preto);
     text-transform: uppercase;
     font-size: 2.5em;
 }
@@ -134,13 +165,14 @@ main {
 }
 
 .producao {
+   
     margin-top: 1em;
     font-size: 2em;
     text-transform: uppercase;
     padding: 0.2em 1em;
     float: right;
     border: 3px solid var(--main-branco);
-    background: var(--main-branco);
+    background-color:#ffff52;
     clip-path: polygon(100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0 0);
     cursor: pointer;
 }
@@ -152,6 +184,7 @@ main {
 
 
 
+
 /****************************** Estatísticas *****/
 .estatisticas {
     flex-basis: 23%;
@@ -159,7 +192,7 @@ main {
 }
 
 .estatistica {
-    color: var(--main-branco);
+    color: var(--main-preto);
     display: flex;
     align-items: flex-start;
     height: 25%;
@@ -167,7 +200,7 @@ main {
 
 .estatistica-titulo {
     font-size: 1.5em;
-    border-bottom: 1px solid var(--main-cinza);
+    border-bottom: 1px solid var(--main-preto);
     flex-basis: 40%;
     text-transform: uppercase;
     order: 1
@@ -233,3 +266,4 @@ main {
         margin: 10vh auto;
     }
 }
+
