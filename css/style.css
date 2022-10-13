@@ -61,7 +61,7 @@ main {
 }
 
 .robotron {
-    background: url(../img/estrutura.png) no-repeat;
+    
     background-position: center center;
     margin: 0;
     flex-basis: 40%;
@@ -79,7 +79,7 @@ main {
 .titulo {
     transform: rotate(180deg);
     font-weight: 500;
-    font-size: 130px;
+    font-size: 120px;
     position: absolute;
     bottom: 7rem;
     left: -3rem;
@@ -267,3 +267,15 @@ main {
     }
 }
 
+
+.footer {
+   
+    font-size: 1.3em;
+    text-transform: uppercase;
+    float: right;
+    border: 3px solid var(--main-branco);
+    background-color:#ffff52;
+    font-weight: bolder;
+    
+
+}
