@@ -1,8 +1,8 @@
 # Robotron
 Projeto em JavaScript, aprendendo a manipular o DOM
 
-Projeto YELLOWTRON
-![YELLOWTRON]()
+Projeto 
+![YELLOWTRON](https://github.com/HelenCarolini/Robotron/blob/main/img-yellowtron.png)
 📄 Sobre
 Esse projeto foi planejado para que a pessoa pudesse montar seu robo para lutar contra um ataque alienígena, adicionando ferramentas para deixar seu mais forte.
 
