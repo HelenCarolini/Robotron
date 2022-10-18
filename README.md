@@ -8,7 +8,7 @@ Projeto em JavaScript, aprendendo a manipular o DOM
 
 
 📄 Sobre
-Esse projeto foi planejado para que a pessoa pudesse montar seu robo para lutar contra um ataque alienígena, adicionando ferramentas para deixar seu mais forte.
+Para montar o seu Robotron você precisa adicionar peças na engrenagem que compõe um robô e ver as estatísticas atualizadas dinamicamente, tudo isso com JavaScript. Esse projeto foi planejado para utilizar o JavaScript em uma página real. Onde o objetivo foi manipular elementos, interagir com HTML por meio do JavaScript, criar funções e operações lógicas.
 
 
 
