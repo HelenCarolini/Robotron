@@ -1,9 +1,8 @@
 # Robotron
 Projeto em JavaScript, aprendendo a manipular o DOM
 
-Projeto 4Food
-<img width="470" src="img/yellowtron.png" />
-
+Projeto YELLOWTRON
+![YELLOWTRON]()
 📄 Sobre
 Esse projeto foi planejado para que a pessoa pudesse montar seu robo para lutar contra um ataque alienígena, adicionando ferramentas para deixar seu mais forte.
 
